@@ -1,0 +1,11 @@
+CPU-PAE;--pae;Enable physical address extension of the CPU (allows more than 4GB RAM for 32-bit CPUs)?
+CPU-SynthCPU;--synthcpu;Expose a synthetic CPU to the guest?
+HW Virt. - NESTED PAGING;--nestedpaging;(HW Virtualiz.) Enable Nested paging (requires HW-V.; increases perf.)?
+HW Virt. - LARGE PAGES;--largepages;(HW Virtualiz.) Enable Large pages (requires HW-V + Nestedpaging on; increases perf.)?
+HW Virt. - VTXVPID;--vtxvpid;(INTEL ONLY!) Enable the use of the tagged TLB (VPID) feature in the HW CPU (requires HW-V)?
+HW Virt. - VTXUX;--vtxux;(INTEL ONLY!) Enable the unrestricted guest mode feature for executing your guest (requires HW-V)?
+Motherboard ACPI;--acpi;Enable ACPI support (e.g. ACPI-Powerbutton, ACPI-Sleep, etc.)?
+Motherboard IOAPIC;--ioapic;Enable I/O APIC support (e.g. more than 16 IRQs)?
+Motherboard-RTCuseUTC;--rtcuseutc;Report HW clock to guest system in UTC?
+Motherboard-HPET;--hpet;Enables/Disables a High Precision Event Timer (HPET)?
+RemoteAccess-VRDE;--vrde;Enable remote desktop connection to the VM?
